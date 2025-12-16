@@ -1,0 +1,90 @@
+/* 기본 설정 */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  margin: 0;
+  padding-top: 50px;
+  background-color: #f5f5f5;
+}
+
+/* 제목 스타일 */
+h1 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 30px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* 로그인 버튼 스타일 */
+#kakao,
+#naver {
+  padding: 10px 20px;
+  margin: 0 10px 30px 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #fff;
+  transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+#kakao:hover,
+#naver:hover {
+  background-color: #eee;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* 메인 사용자 정보 영역 */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px; /* 적절한 너비 설정 */
+  text-align: center;
+}
+
+/* 프로필 이미지 (img 태그) 스타일 */
+main img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #9e9e9e;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 3px solid #eee;
+}
+
+/* 유저 이름 표시 영역 */
+main div {
+  font-size: 1.1em;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+/* 로그아웃 버튼 스타일 */
+#logout_button {
+  width: 80%; /* main 영역 너비에 비례 */
+  padding: 12px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  background-color: #f8f8f8; /* 이미지와 비슷한 연한 회색 */
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#logout:hover {
+  background-color: #e0e0e0;
+}
